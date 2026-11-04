@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Training outputs (Hugging Face Trainer)
+results/
+results_roberta/
+logs/
+runs/
+wandb/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+
+# Data (do not commit large or third-party datasets)
+data/
+*.csv
+*.zip
+
+# Secrets
+.env
+*.env
+.huggingface/
+hf_token*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,12 @@
+transformers>=4.40
+datasets
+huggingface_hub
+accelerate
+torch
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+tqdm
+jupyter
