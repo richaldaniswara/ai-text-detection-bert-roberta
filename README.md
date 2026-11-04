@@ -32,7 +32,7 @@ Metrics are reported as mean ± standard deviation over **5 fine-tuning runs** o
 
 | BERT | RoBERTa |
 |:----:|:-------:|
-| <img src="assets/bert_confusion_matrix_test.png" width="380"> | <img src="assets/roberta_confusion_matrix_test.png" width="380"> |
+| <img src="assets\BERT confusion matrix (test set).png" width="380"> | <img src="assets\RoBERTa confusion matrix (test set).png" width="380"> |
 
 Most remaining errors are human-written texts predicted as AI-generated, typically formal, factual, and highly structured writing that resembles AI output.
 
@@ -40,7 +40,7 @@ Most remaining errors are human-written texts predicted as AI-generated, typical
 
 | BERT | RoBERTa |
 |:----:|:-------:|
-| <img src="assets/bert_loss_curve.png" width="380"> | <img src="assets/roberta_loss_curve.png" width="380"> |
+| <img src="assets\bert graph loss.png" width="380"> | <img src="assets\roberta graph loss.png" width="380"> |
 
 ## Dataset
 
@@ -50,7 +50,7 @@ Most remaining errors are human-written texts predicted as AI-generated, typical
 - Split: **70% train / 15% validation / 15% test**, stratified by label (`random_state=42`). The notebook also checks that there is no text overlap between the splits.
 
 <p align="center">
-  <img src="assets/class_distribution.png" width="360" alt="Class distribution after sampling">
+  <img src="assets\class distribution after sampling.png" width="360" alt="Class distribution after sampling">
 </p>
 
 > The notebook reads the data from a file named `wiki-labeled.csv`. Download the dataset from its public source (see the thesis report) and place it where the notebook expects it. The dataset itself is not included in this repository.
@@ -142,10 +142,7 @@ If you use this work, please cite the thesis:
 **Agam Marichal Daniswara Aranda** (Richal)
 Informatics graduate, Telkom University
 
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: add your link here
-- Email: add your email here
-
-## License
-
-Released under the [MIT License](LICENSE).
+- GitHub: [https://github.com/richaldaniswara](https://github.com/richaldaniswara)
+- LinkedIn: [https://www.linkedin.com/in/richaldaniswaraa/](https://www.linkedin.com/in/richaldaniswaraa/)
+- Email: richalaranda@gmail.com
+.
